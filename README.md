@@ -1,12 +1,13 @@
 # VQMAR — Georgia Aquifer Recharge Pilot
 
-> ⚠️ **Status: Repository under preparation.**
+> ⚠️ **Status: Repository under preparation.**⚠️
+>
 > This is the repository for the IEEE QCE 2026 QECS paper cited below. We are currently preparing the code for public release.
 > The full reference implementation is expected by May 15.
 
 ## Citation
 
-This repository is refenced in the paper:
+This repository is referenced in the paper:
 
 > Aseeri, S. A., Burgett, J., Melmer Stiefkens, J., Taylor, T., & Milewski, A. M. (2026).
 > VQ-MAR: A Variational Quantum-Classical Hybrid Framework for Managed Aquifer Recharge Site Selection.
@@ -28,12 +29,14 @@ This repository will contain the reference implementation for the VQ-MAR Georgia
 
 ## Repository structure (in progress)
 
+```
 vqmar-georgia01/
 ├── docs/            # Public data-source documentation (SSURGO, NWIS, NLCD, NOAA, OSM)
 ├── georgia/         # Public-domain datasets and processed inputs
 ├── scripts/         # Data acquisition, transformation, QUBO assembly, solvers
 ├── README.md
 └── LICENSE
+```
 
 ## License
 
