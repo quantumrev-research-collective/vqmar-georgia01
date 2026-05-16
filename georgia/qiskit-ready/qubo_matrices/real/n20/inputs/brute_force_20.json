@@ -1,0 +1,21 @@
+{
+  "task": "B3",
+  "method": "brute_force",
+  "n_sites": 20,
+  "runtime_seconds": 4.1804358959198,
+  "result": {
+    "energy": -11.012666804031108,
+    "bitstring": "00010000001010010000",
+    "n_selected": 4,
+    "selected_sites": [
+      "GA_004",
+      "GA_011",
+      "GA_013",
+      "GA_016"
+    ],
+    "total_benefit": 2.825720013219777,
+    "total_cost": 1.4799718838422344,
+    "excluded_used": 0,
+    "budget_B": 2.6840435761596755
+  }
+}

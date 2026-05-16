@@ -1,0 +1,163 @@
+{
+  "run_id": "mps_choice_a_n50_real_bd32_fixed_params_20260423_021144",
+  "variant": "choice_a",
+  "cost_model": "real",
+  "n_sites": 50,
+  "simulator": "mps",
+  "p_depth": 1,
+  "mode": "fixed_params",
+  "energy": -11.29574684,
+  "approximation_ratio": 0.954813,
+  "beta": [
+    2.47589275
+  ],
+  "gamma": [
+    0.07895778
+  ],
+  "top10_bitstrings": [
+    {
+      "bitstring": "00010010000000000000000000000000000000000000000000",
+      "energy": -11.29574684,
+      "sites": [
+        "GA_004",
+        "GA_007"
+      ],
+      "benefit": 1.447956,
+      "cost": 1.362343,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01010000000000000000000000000000000000000000000000",
+      "energy": -11.17077071,
+      "sites": [
+        "GA_002",
+        "GA_004"
+      ],
+      "benefit": 1.111675,
+      "cost": 1.466634,
+      "feasible": true,
+      "probability": 0.00024414
+    },
+    {
+      "bitstring": "01000000000000000000000010000000000000000000000000",
+      "energy": -10.34270715,
+      "sites": [
+        "GA_002",
+        "GA_025"
+      ],
+      "benefit": 0.82485,
+      "cost": 1.280424,
+      "feasible": true,
+      "probability": 0.00024414
+    },
+    {
+      "bitstring": "00000000000000000100000000000000000000000000000001",
+      "energy": -8.24473123,
+      "sites": [
+        "GA_018",
+        "GA_050"
+      ],
+      "benefit": 1.289598,
+      "cost": 0.777668,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00000000000000000000000000000000000000000001000000",
+      "energy": -7.18203845,
+      "sites": [
+        "GA_044"
+      ],
+      "benefit": 0.458911,
+      "cost": 0.6775,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01000000000000000000000000000000000000000000000000",
+      "energy": -6.97976092,
+      "sites": [
+        "GA_002"
+      ],
+      "benefit": 0.434786,
+      "cost": 0.656808,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00010000000000000000000000000010000100000000000000",
+      "energy": -6.69703289,
+      "sites": [
+        "GA_004",
+        "GA_031",
+        "GA_036"
+      ],
+      "benefit": 1.962564,
+      "cost": 1.621919,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00010010000000000000001000000000000000000000000000",
+      "energy": -6.43963235,
+      "sites": [
+        "GA_004",
+        "GA_007",
+        "GA_023"
+      ],
+      "benefit": 1.95759,
+      "cost": 1.874027,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01010000000000000000000000000001000000000000000000",
+      "energy": -6.20085625,
+      "sites": [
+        "GA_002",
+        "GA_004",
+        "GA_032"
+      ],
+      "benefit": 1.667429,
+      "cost": 1.877646,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00010000000100000000000000000000100000000000000000",
+      "energy": -6.18789612,
+      "sites": [
+        "GA_004",
+        "GA_012",
+        "GA_033"
+      ],
+      "benefit": 1.64412,
+      "cost": 1.804774,
+      "feasible": true,
+      "probability": 0.00012207
+    }
+  ],
+  "convergence_curve": [],
+  "seed": 42,
+  "runtime_seconds": 3.8649,
+  "run_timestamp": "20260423_021144",
+  "mps_bond_dim": 32,
+  "shots": 8192,
+  "fixed_params_source": "georgia/qiskit-ready/qubo_matrices/real/top10_baseline_p1.json",
+  "result": {
+    "energy": -11.29574683798425,
+    "bitstring": "00010010000000000000000000000000000000000000000000",
+    "n_selected": 2,
+    "selected_sites": [
+      "GA_004",
+      "GA_007"
+    ],
+    "total_benefit": 1.4479559536393722,
+    "total_cost": 1.3623426943365122,
+    "excluded_used": 0,
+    "budget_B": 2.819608829857445
+  },
+  "ground_truth_energy": -11.830320040533337,
+  "bond_dim_note": "bond_dim \u2264 32: entanglement truncation may reduce AR \u2014 acknowledge in paper Methodology."
+}

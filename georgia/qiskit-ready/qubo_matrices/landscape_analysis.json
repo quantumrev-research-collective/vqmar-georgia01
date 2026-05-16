@@ -1,0 +1,98 @@
+{
+  "flat": {
+    "n_qubits": 20,
+    "kappa": 9.0602,
+    "eigenvalues": [
+      -7.243064,
+      -7.222879,
+      -7.195389,
+      -7.178081,
+      -7.112375,
+      -7.10946,
+      -7.101256,
+      -7.053158,
+      -5.128229,
+      -2.210906,
+      -2.12619,
+      -2.060366,
+      -2.015444,
+      -1.992359,
+      -1.970991,
+      -1.959442,
+      -1.89212,
+      -1.8512,
+      -1.779292,
+      16.120665
+    ],
+    "n_negative_eigs": 19,
+    "n_positive_eigs": 1,
+    "spectral_gap": 0.020185,
+    "diagonal": {
+      "min": -6.251475,
+      "max": -0.768169,
+      "mean": -3.304077,
+      "std": 2.570767
+    },
+    "off_diagonal": {
+      "min": 1.000001,
+      "max": 1.036326,
+      "mean": 1.005823,
+      "std": 0.010166
+    },
+    "budget": 3.0,
+    "cost_range": {
+      "min": 0.5,
+      "max": 0.5
+    }
+  },
+  "real": {
+    "n_qubits": 20,
+    "kappa": 214.7921,
+    "eigenvalues": [
+      -5.420264,
+      -5.262073,
+      -5.040081,
+      -4.927747,
+      -4.910271,
+      -4.855091,
+      -4.77044,
+      -4.535368,
+      -4.293998,
+      -3.662374,
+      -2.870978,
+      -2.111556,
+      -1.896774,
+      -1.533025,
+      -1.312753,
+      -1.218499,
+      -0.066511,
+      0.283483,
+      0.43964,
+      14.286108
+    ],
+    "n_negative_eigs": 17,
+    "n_positive_eigs": 3,
+    "spectral_gap": 0.158191,
+    "diagonal": {
+      "min": -4.743931,
+      "max": 0.980695,
+      "mean": -2.183929,
+      "std": 2.105152
+    },
+    "off_diagonal": {
+      "min": 0.460245,
+      "max": 1.859412,
+      "mean": 0.803893,
+      "std": 0.262807
+    },
+    "budget": 2.684044,
+    "cost_range": {
+      "min": 0.324407,
+      "max": 0.686115
+    }
+  },
+  "summary": {
+    "kappa_ratio_real_vs_flat": 23.71,
+    "interpretation": "Real QUBO is 23.7x more ill-conditioned than flat. High \u03ba \u2192 elongated energy valleys \u2192 COBYLA trust region collapses prematurely at p\u22652 (4\u20136 parameters) without exploring sufficiently."
+  }
+}

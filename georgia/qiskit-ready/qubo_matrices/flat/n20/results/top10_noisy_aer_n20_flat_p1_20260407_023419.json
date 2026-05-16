@@ -1,0 +1,197 @@
+{
+  "run_id": "noisy_aer_p1_flat_20260407_023419",
+  "variant": "baseline",
+  "cost_model": "flat",
+  "n_sites": 20,
+  "simulator": "noisy_aer",
+  "p_depth": 1,
+  "energy": -12.78145974,
+  "approximation_ratio": 1.0,
+  "beta": [
+    0.49114649
+  ],
+  "gamma": [
+    0.25857884
+  ],
+  "top10_bitstrings": [
+    {
+      "bitstring": "00010000001010010000",
+      "energy": -12.78145974,
+      "sites": [
+        "GA_004",
+        "GA_011",
+        "GA_013",
+        "GA_016"
+      ],
+      "benefit": 2.82572,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00036621,
+      "count": 3
+    },
+    {
+      "bitstring": "00010000001000010010",
+      "energy": -12.72559164,
+      "sites": [
+        "GA_004",
+        "GA_011",
+        "GA_016",
+        "GA_019"
+      ],
+      "benefit": 2.758325,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010000000010010010",
+      "energy": -12.71583847,
+      "sites": [
+        "GA_004",
+        "GA_013",
+        "GA_016",
+        "GA_019"
+      ],
+      "benefit": 2.737251,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207,
+      "count": 1
+    },
+    {
+      "bitstring": "00010100000010010000",
+      "energy": -12.70291379,
+      "sites": [
+        "GA_004",
+        "GA_006",
+        "GA_013",
+        "GA_016"
+      ],
+      "benefit": 2.712973,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010010000010010000",
+      "energy": -12.69538661,
+      "sites": [
+        "GA_004",
+        "GA_007",
+        "GA_013",
+        "GA_016"
+      ],
+      "benefit": 2.72006,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207,
+      "count": 1
+    },
+    {
+      "bitstring": "00010010001000010000",
+      "energy": -12.68996324,
+      "sites": [
+        "GA_004",
+        "GA_007",
+        "GA_011",
+        "GA_016"
+      ],
+      "benefit": 2.741135,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010000000101010000",
+      "energy": -12.68245333,
+      "sites": [
+        "GA_004",
+        "GA_012",
+        "GA_014",
+        "GA_016"
+      ],
+      "benefit": 2.709423,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010000001100010000",
+      "energy": -12.67857711,
+      "sites": [
+        "GA_004",
+        "GA_011",
+        "GA_012",
+        "GA_016"
+      ],
+      "benefit": 2.797949,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010100001000010000",
+      "energy": -12.66995417,
+      "sites": [
+        "GA_004",
+        "GA_006",
+        "GA_011",
+        "GA_016"
+      ],
+      "benefit": 2.734047,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00024414,
+      "count": 2
+    },
+    {
+      "bitstring": "00010000001010000010",
+      "energy": -12.66441007,
+      "sites": [
+        "GA_004",
+        "GA_011",
+        "GA_013",
+        "GA_019"
+      ],
+      "benefit": 2.690652,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207,
+      "count": 1
+    }
+  ],
+  "convergence_curve": [],
+  "seed": 42,
+  "runtime_seconds": 0.5988,
+  "run_timestamp": "20260407_023419",
+  "shots": 8192,
+  "noise_backend": "FakeBrisbane (Eagle r1 family, ibm_kingston equivalent)",
+  "fixed_params_source": "/Users/jmelmer/Documents/Personal/Jeff-QTeam/Repository-aquifer-recharge-georgia_data/georgia/qiskit-ready/qubo_matrices/flat/qaoa_native_diagonal_20_p1.json",
+  "result": {
+    "energy": -12.781459738867976,
+    "bitstring": "00010000001010010000",
+    "n_selected": 4,
+    "selected_sites": [
+      "GA_004",
+      "GA_011",
+      "GA_013",
+      "GA_016"
+    ],
+    "total_benefit": 2.825720013219777,
+    "total_cost": 2.0,
+    "excluded_used": 0,
+    "budget_B": 3.0
+  },
+  "ground_truth_energy": -12.781459738867975,
+  "hardware_comparison": {
+    "statevector_ar": 1.0,
+    "noisy_aer_ar": 1.0,
+    "hardware_ar": 0.9939,
+    "hardware_job_id": "d79jmo1q1efs73d2tta0"
+  }
+}

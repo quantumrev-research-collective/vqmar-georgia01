@@ -1,0 +1,5 @@
+variant,cost_model,p_depth,simulator,best_energy,best_benefit,best_cost,best_feasible,n_selected,approximation_ratio,runtime
+baseline,flat,1,native_diagonal,-0.88418901,3.906313,3.5,False,7,1.0,N/A
+cvar,flat,1,native_diagonal,-12.78145981,2.232315,2.0,True,4,1.0,N/A
+spatial,flat,1,native_diagonal,2.58740667,2.463833,2.0,True,4,-0.208238,N/A
+hydraulic,flat,1,native_diagonal,-2.40812998,2.418189,2.0,True,4,-0.61118,N/A

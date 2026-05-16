@@ -1,0 +1,19 @@
+# Virtual environment — never push this
+vqmar-env/
+venv/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / API keys
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/

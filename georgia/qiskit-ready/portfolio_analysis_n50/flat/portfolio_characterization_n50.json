@@ -1,0 +1,102 @@
+{
+  "n_sites": 50,
+  "table3": [
+    {
+      "variant": "baseline",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -11.92974658,
+      "best_benefit": 2.133123,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_020",
+        "GA_025",
+        "GA_036",
+        "GA_044"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": 0.935797,
+      "runtime": 3.804
+    },
+    {
+      "variant": "choice_b",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -12.077126,
+      "best_benefit": 2.19921,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_011",
+        "GA_015",
+        "GA_026",
+        "GA_033"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": 0.947358,
+      "runtime": 3.7784
+    },
+    {
+      "variant": "choice_a",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -12.23742126,
+      "best_benefit": 2.368252,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_002",
+        "GA_018",
+        "GA_034",
+        "GA_036"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": 0.959932,
+      "runtime": 3.8121
+    }
+  ],
+  "table4_per_variant": [
+    {
+      "variant": "baseline",
+      "site_diversity": 0.48,
+      "benefit_spread": 0.518322,
+      "cost_utilization": 0.6667,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "choice_b",
+      "site_diversity": 0.44,
+      "benefit_spread": 0.381232,
+      "cost_utilization": 0.75,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "choice_a",
+      "site_diversity": 0.38,
+      "benefit_spread": 0.766776,
+      "cost_utilization": 0.6667,
+      "feasibility_rate": 1.0
+    }
+  ],
+  "table4_pairwise_jaccard": {
+    "baseline_vs_choice_b": 0.6428571428571429,
+    "baseline_vs_choice_a": 0.5925925925925926,
+    "choice_b_vs_choice_a": 0.64
+  },
+  "config": {
+    "data_dir": "georgia/qiskit-ready/qubo_matrices/flat",
+    "budget": 3.0,
+    "n_sites": 50,
+    "auto_discover": true,
+    "only_variants": [
+      "baseline",
+      "choice_a",
+      "choice_b"
+    ],
+    "variant_files": null
+  }
+}

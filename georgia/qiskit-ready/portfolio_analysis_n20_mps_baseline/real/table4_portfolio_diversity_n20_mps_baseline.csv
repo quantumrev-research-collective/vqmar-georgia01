@@ -1,0 +1,11 @@
+=== Per-Variant Diversity Metrics ===
+variant,site_diversity,benefit_spread,cost_utilization,feasibility_rate
+choice_b,0.45,0.125211,0.6509,1.0
+baseline,0.45,0.379698,0.7033,1.0
+choice_a,0.4,0.260233,0.7855,1.0
+
+=== Pairwise Portfolio Overlap (Jaccard) ===
+pair,jaccard_similarity
+baseline_vs_choice_a,0.8889
+choice_b_vs_baseline,1.0
+choice_b_vs_choice_a,0.8889

@@ -1,0 +1,58 @@
+# VQ-MAR: Georgia Aquifer Recharge Pilot — Python dependencies
+#
+# Pinned versions for reproducibility. Eleven packages below are direct
+# imports from scripts in this repository; the remaining entries are
+# transitive dependencies pinned at exact versions used during the
+# Phase 1 study to support bit-exact reproduction of the paper's results.
+#
+# Direct dependencies (load-bearing imports):
+#   dataretrieval, numpy, pandas, qiskit, qiskit-aer, qiskit-algorithms,
+#   qiskit-ibm-runtime, qiskit-optimization, rasterio, requests, scipy
+#
+# Tested with Python 3.11 on Ubuntu 22.04 / 24.04.
+
+affine==2.4.0
+annotated-types==0.7.0
+attrs==26.1.0
+certifi==2026.2.25
+cffi==2.0.0
+charset-normalizer==3.4.6
+click==8.3.1
+click-plugins==1.1.1.2
+cligj==0.7.2
+cryptography==46.0.5
+dataretrieval==1.1.2
+dill==0.4.1
+ibm-cloud-sdk-core==3.24.4
+ibm-platform-services==0.74.0
+idna==3.11
+joblib==1.5.3
+networkx==3.6.1
+numpy==2.4.3
+packaging==26.0
+pandas==2.3.3
+psutil==7.2.2
+pycparser==3.0
+pydantic==2.12.5
+pydantic_core==2.41.5
+PyJWT==2.12.1
+pyparsing==3.3.2
+pyspnego==0.12.1
+python-dateutil==2.9.0.post0
+pytz==2026.1.post1
+qiskit==2.3.1
+qiskit-aer==0.17.2
+qiskit-algorithms==0.4.0
+qiskit-ibm-runtime==0.45.1
+qiskit-optimization==0.7.0
+rasterio==1.4.4
+requests==2.32.5
+requests_ntlm==1.3.0
+rustworkx==0.17.1
+scipy==1.17.1
+six==1.17.0
+stevedore==5.7.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.3
+urllib3==2.6.3

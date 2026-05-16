@@ -1,0 +1,186 @@
+{
+  "run_id": "mps_baseline_n20_flat_bd64_20260407_022936",
+  "variant": "baseline",
+  "cost_model": "flat",
+  "n_sites": 20,
+  "simulator": "mps",
+  "p_depth": 1,
+  "energy": -10.85848236,
+  "approximation_ratio": 0.849549,
+  "beta": [
+    0.30694669
+  ],
+  "gamma": [
+    0.29280652
+  ],
+  "top10_bitstrings": [
+    {
+      "bitstring": "00001001010000001000",
+      "energy": -12.78145981,
+      "sites": [
+        "GA_005",
+        "GA_008",
+        "GA_010",
+        "GA_017"
+      ],
+      "benefit": 2.232315,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.955e-05
+    },
+    {
+      "bitstring": "01001000010000001000",
+      "energy": -12.72559166,
+      "sites": [
+        "GA_002",
+        "GA_005",
+        "GA_010",
+        "GA_017"
+      ],
+      "benefit": 2.371822,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.878e-05
+    },
+    {
+      "bitstring": "00001010010000001000",
+      "energy": -12.72404289,
+      "sites": [
+        "GA_005",
+        "GA_007",
+        "GA_010",
+        "GA_017"
+      ],
+      "benefit": 2.446699,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.89e-05
+    },
+    {
+      "bitstring": "01001001000000001000",
+      "energy": -12.71583939,
+      "sites": [
+        "GA_002",
+        "GA_005",
+        "GA_008",
+        "GA_017"
+      ],
+      "benefit": 2.111795,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.858e-05
+    },
+    {
+      "bitstring": "00001001000000101000",
+      "energy": -12.70291328,
+      "sites": [
+        "GA_005",
+        "GA_008",
+        "GA_015",
+        "GA_017"
+      ],
+      "benefit": 2.04565,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.896e-05
+    },
+    {
+      "bitstring": "00001001000001001000",
+      "energy": -12.69538689,
+      "sites": [
+        "GA_005",
+        "GA_008",
+        "GA_014",
+        "GA_017"
+      ],
+      "benefit": 2.203805,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.871e-05
+    },
+    {
+      "bitstring": "00001000010001001000",
+      "energy": -12.68996334,
+      "sites": [
+        "GA_005",
+        "GA_010",
+        "GA_014",
+        "GA_017"
+      ],
+      "benefit": 2.463833,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.87e-05
+    },
+    {
+      "bitstring": "01001000100000001000",
+      "energy": -12.68876457,
+      "sites": [
+        "GA_002",
+        "GA_005",
+        "GA_009",
+        "GA_017"
+      ],
+      "benefit": 2.241752,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.86e-05
+    },
+    {
+      "bitstring": "00001001100000001000",
+      "energy": -12.68400097,
+      "sites": [
+        "GA_005",
+        "GA_008",
+        "GA_009",
+        "GA_017"
+      ],
+      "benefit": 2.102245,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.88e-05
+    },
+    {
+      "bitstring": "00001010100000001000",
+      "energy": -12.68245316,
+      "sites": [
+        "GA_005",
+        "GA_007",
+        "GA_009",
+        "GA_017"
+      ],
+      "benefit": 2.316629,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 1.866e-05
+    }
+  ],
+  "convergence_curve": [
+    66.21091595,
+    69.65250435,
+    85.98059992,
+    40.85561081
+  ],
+  "seed": 42,
+  "runtime_seconds": 7.581,
+  "run_timestamp": "20260407_022936",
+  "mps_bond_dim": 64,
+  "result": {
+    "energy": -10.858482360839844,
+    "bitstring": "01001001010000001000",
+    "n_selected": 5,
+    "selected_sites": [
+      "GA_002",
+      "GA_005",
+      "GA_008",
+      "GA_010",
+      "GA_017"
+    ],
+    "total_benefit": 2.7346857762076997,
+    "total_cost": 2.5,
+    "excluded_used": 0,
+    "budget_B": 3.0
+  },
+  "ground_truth_energy": -12.781459738867975,
+  "bond_dim_note": null
+}

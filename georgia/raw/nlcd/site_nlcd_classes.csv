@@ -1,0 +1,140 @@
+site_id,latitude,longitude,nlcd_class,nlcd_class_name,mar_suitability_score,impervious_pct
+GA_001,31.65,-84.55,11,Open Water,0.0,0
+GA_002,31.65,-84.325,21,"Developed, Open Space",0.2,2
+GA_003,31.65,-84.1,22,"Developed, Low Intensity",0.0,21
+GA_004,31.65,-83.875,42,Evergreen Forest,0.6,0
+GA_005,31.65,-83.65,90,Woody Wetlands,0.1,0
+GA_006,31.916667,-84.55,42,Evergreen Forest,0.6,0
+GA_007,31.916667,-84.325,42,Evergreen Forest,0.6,0
+GA_008,31.916667,-84.1,90,Woody Wetlands,0.1,0
+GA_009,31.916667,-83.875,90,Woody Wetlands,0.1,0
+GA_010,31.916667,-83.65,82,Cultivated Crops,0.5,0
+GA_011,32.183333,-84.55,42,Evergreen Forest,0.6,0
+GA_012,32.183333,-84.325,82,Cultivated Crops,0.5,0
+GA_013,32.183333,-84.1,82,Cultivated Crops,0.5,0
+GA_014,32.183333,-83.875,82,Cultivated Crops,0.5,0
+GA_015,32.183333,-83.65,82,Cultivated Crops,0.5,0
+GA_016,32.45,-84.55,81,Pasture/Hay,0.7,0
+GA_017,32.45,-84.325,71,Grassland/Herbaceous,0.9,0
+GA_018,32.45,-84.1,90,Woody Wetlands,0.1,0
+GA_019,32.45,-83.875,82,Cultivated Crops,0.5,0
+GA_020,32.45,-83.65,82,Cultivated Crops,0.5,0
+GA_002,31.65,-84.421429,82,Cultivated Crops,0.5,0
+GA_003,31.65,-84.292857,42,Evergreen Forest,0.6,0
+GA_004,31.65,-84.164286,82,Cultivated Crops,0.5,0
+GA_005,31.65,-84.035714,90,Woody Wetlands,0.1,0
+GA_006,31.65,-83.907143,82,Cultivated Crops,0.5,0
+GA_007,31.65,-83.778571,71,Grassland/Herbaceous,0.9,0
+GA_009,31.783333,-84.55,90,Woody Wetlands,0.1,0
+GA_010,31.783333,-84.421429,90,Woody Wetlands,0.1,0
+GA_011,31.783333,-84.292857,90,Woody Wetlands,0.1,0
+GA_012,31.783333,-84.164286,90,Woody Wetlands,0.1,0
+GA_013,31.783333,-84.035714,82,Cultivated Crops,0.5,0
+GA_014,31.783333,-83.907143,82,Cultivated Crops,0.5,0
+GA_015,31.783333,-83.778571,42,Evergreen Forest,0.6,0
+GA_016,31.783333,-83.65,42,Evergreen Forest,0.6,0
+GA_018,31.916667,-84.421429,82,Cultivated Crops,0.5,0
+GA_019,31.916667,-84.292857,82,Cultivated Crops,0.5,0
+GA_020,31.916667,-84.164286,82,Cultivated Crops,0.5,0
+GA_021,31.916667,-84.035714,82,Cultivated Crops,0.5,0
+GA_022,31.916667,-83.907143,82,Cultivated Crops,0.5,0
+GA_023,31.916667,-83.778571,90,Woody Wetlands,0.1,0
+GA_025,32.05,-84.55,90,Woody Wetlands,0.1,0
+GA_026,32.05,-84.421429,41,Deciduous Forest,0.6,0
+GA_027,32.05,-84.292857,82,Cultivated Crops,0.5,0
+GA_028,32.05,-84.164286,43,Mixed Forest,0.6,0
+GA_029,32.05,-84.035714,82,Cultivated Crops,0.5,0
+GA_030,32.05,-83.907143,21,"Developed, Open Space",0.2,1
+GA_031,32.05,-83.778571,82,Cultivated Crops,0.5,0
+GA_032,32.05,-83.65,82,Cultivated Crops,0.5,0
+GA_034,32.183333,-84.421429,42,Evergreen Forest,0.6,0
+GA_035,32.183333,-84.292857,82,Cultivated Crops,0.5,0
+GA_036,32.183333,-84.164286,42,Evergreen Forest,0.6,0
+GA_037,32.183333,-84.035714,90,Woody Wetlands,0.1,0
+GA_038,32.183333,-83.907143,90,Woody Wetlands,0.1,0
+GA_039,32.183333,-83.778571,82,Cultivated Crops,0.5,0
+GA_041,32.316667,-84.55,43,Mixed Forest,0.6,0
+GA_042,32.316667,-84.421429,42,Evergreen Forest,0.6,0
+GA_043,32.316667,-84.292857,82,Cultivated Crops,0.5,0
+GA_044,32.316667,-84.164286,90,Woody Wetlands,0.1,0
+GA_045,32.316667,-84.035714,90,Woody Wetlands,0.1,0
+GA_046,32.316667,-83.907143,82,Cultivated Crops,0.5,0
+GA_047,32.316667,-83.778571,43,Mixed Forest,0.6,0
+GA_048,32.316667,-83.65,90,Woody Wetlands,0.1,0
+GA_050,32.45,-84.421429,42,Evergreen Forest,0.6,0
+GA_002,31.65,-84.45,82,Cultivated Crops,0.5,0
+GA_003,31.65,-84.35,82,Cultivated Crops,0.5,0
+GA_004,31.65,-84.25,42,Evergreen Forest,0.6,0
+GA_005,31.65,-84.15,42,Evergreen Forest,0.6,0
+GA_006,31.65,-84.05,22,"Developed, Low Intensity",0.0,24
+GA_007,31.65,-83.95,90,Woody Wetlands,0.1,0
+GA_008,31.65,-83.85,82,Cultivated Crops,0.5,0
+GA_009,31.65,-83.75,82,Cultivated Crops,0.5,0
+GA_011,31.764286,-84.55,43,Mixed Forest,0.6,0
+GA_012,31.764286,-84.45,90,Woody Wetlands,0.1,0
+GA_013,31.764286,-84.35,82,Cultivated Crops,0.5,0
+GA_014,31.764286,-84.25,22,"Developed, Low Intensity",0.0,26
+GA_015,31.764286,-84.15,81,Pasture/Hay,0.7,0
+GA_016,31.764286,-84.05,42,Evergreen Forest,0.6,0
+GA_017,31.764286,-83.95,42,Evergreen Forest,0.6,0
+GA_018,31.764286,-83.85,71,Grassland/Herbaceous,0.9,0
+GA_019,31.764286,-83.75,42,Evergreen Forest,0.6,0
+GA_020,31.764286,-83.65,52,Shrub/Scrub,0.8,0
+GA_021,31.878571,-84.55,21,"Developed, Open Space",0.2,6
+GA_022,31.878571,-84.45,52,Shrub/Scrub,0.8,0
+GA_023,31.878571,-84.35,90,Woody Wetlands,0.1,0
+GA_024,31.878571,-84.25,82,Cultivated Crops,0.5,0
+GA_025,31.878571,-84.15,82,Cultivated Crops,0.5,0
+GA_026,31.878571,-84.05,82,Cultivated Crops,0.5,0
+GA_027,31.878571,-83.95,42,Evergreen Forest,0.6,0
+GA_028,31.878571,-83.85,82,Cultivated Crops,0.5,0
+GA_029,31.878571,-83.75,42,Evergreen Forest,0.6,0
+GA_030,31.878571,-83.65,42,Evergreen Forest,0.6,0
+GA_031,31.992857,-84.55,42,Evergreen Forest,0.6,0
+GA_032,31.992857,-84.45,42,Evergreen Forest,0.6,0
+GA_033,31.992857,-84.35,82,Cultivated Crops,0.5,0
+GA_034,31.992857,-84.25,82,Cultivated Crops,0.5,0
+GA_035,31.992857,-84.15,42,Evergreen Forest,0.6,0
+GA_036,31.992857,-84.05,82,Cultivated Crops,0.5,0
+GA_037,31.992857,-83.95,11,Open Water,0.0,0
+GA_038,31.992857,-83.85,90,Woody Wetlands,0.1,0
+GA_039,31.992857,-83.75,21,"Developed, Open Space",0.2,12
+GA_040,31.992857,-83.65,82,Cultivated Crops,0.5,0
+GA_041,32.107143,-84.55,42,Evergreen Forest,0.6,0
+GA_042,32.107143,-84.45,71,Grassland/Herbaceous,0.9,0
+GA_043,32.107143,-84.35,41,Deciduous Forest,0.6,0
+GA_044,32.107143,-84.25,21,"Developed, Open Space",0.2,3
+GA_045,32.107143,-84.15,42,Evergreen Forest,0.6,0
+GA_046,32.107143,-84.05,42,Evergreen Forest,0.6,0
+GA_047,32.107143,-83.95,82,Cultivated Crops,0.5,0
+GA_048,32.107143,-83.85,42,Evergreen Forest,0.6,0
+GA_049,32.107143,-83.75,90,Woody Wetlands,0.1,0
+GA_050,32.107143,-83.65,22,"Developed, Low Intensity",0.0,40
+GA_051,32.221429,-84.55,21,"Developed, Open Space",0.2,2
+GA_052,32.221429,-84.45,42,Evergreen Forest,0.6,0
+GA_053,32.221429,-84.35,71,Grassland/Herbaceous,0.9,0
+GA_054,32.221429,-84.25,42,Evergreen Forest,0.6,0
+GA_055,32.221429,-84.15,41,Deciduous Forest,0.6,0
+GA_056,32.221429,-84.05,11,Open Water,0.0,0
+GA_057,32.221429,-83.95,82,Cultivated Crops,0.5,0
+GA_058,32.221429,-83.85,82,Cultivated Crops,0.5,0
+GA_059,32.221429,-83.75,90,Woody Wetlands,0.1,0
+GA_060,32.221429,-83.65,82,Cultivated Crops,0.5,0
+GA_061,32.335714,-84.55,42,Evergreen Forest,0.6,0
+GA_062,32.335714,-84.45,42,Evergreen Forest,0.6,0
+GA_063,32.335714,-84.35,42,Evergreen Forest,0.6,0
+GA_064,32.335714,-84.25,43,Mixed Forest,0.6,0
+GA_065,32.335714,-84.15,41,Deciduous Forest,0.6,0
+GA_066,32.335714,-84.05,43,Mixed Forest,0.6,0
+GA_067,32.335714,-83.95,90,Woody Wetlands,0.1,0
+GA_068,32.335714,-83.85,42,Evergreen Forest,0.6,0
+GA_069,32.335714,-83.75,81,Pasture/Hay,0.7,0
+GA_070,32.335714,-83.65,71,Grassland/Herbaceous,0.9,0
+GA_072,32.45,-84.45,52,Shrub/Scrub,0.8,0
+GA_073,32.45,-84.35,82,Cultivated Crops,0.5,0
+GA_074,32.45,-84.25,42,Evergreen Forest,0.6,0
+GA_075,32.45,-84.15,82,Cultivated Crops,0.5,0
+GA_076,32.45,-84.05,82,Cultivated Crops,0.5,0
+GA_077,32.45,-83.95,43,Mixed Forest,0.6,0
+GA_078,32.45,-83.85,43,Mixed Forest,0.6,0
+GA_079,32.45,-83.75,22,"Developed, Low Intensity",0.0,25

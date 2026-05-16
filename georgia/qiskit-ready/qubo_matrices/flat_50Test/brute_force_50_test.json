@@ -1,0 +1,25 @@
+{
+  "method": "brute_force_50_test",
+  "status": "interrupted",
+  "n_sites": 50,
+  "total_combinations": 1125899906842624,
+  "combinations_evaluated": 51300000,
+  "fraction_evaluated": 4.5563552930616424e-08,
+  "runtime_seconds": 27.8402156829834,
+  "rate_per_second": 1842658.1382900628,
+  "projected_total_seconds": 611019419.9600306,
+  "projected_total_human": "19.4 years",
+  "best_global": {
+    "energy": -12.59900771443597,
+    "bitstring": "00010010000000000101000000000000000000000000000000",
+    "n_selected": 4
+  },
+  "best_feasible": {
+    "energy": -12.59900771443597,
+    "bitstring": "00010010000000000101000000000000000000000000000000",
+    "n_selected": 4
+  },
+  "qubo_parameters": {
+    "budget": 3.0
+  }
+}

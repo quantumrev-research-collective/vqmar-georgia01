@@ -1,0 +1,4 @@
+Method,QUBO Energy,Total Benefit,Total Cost,Sites Selected,Excluded Selected,Feasible,Runtime (s),AR,AR Reference Source,AR Reference Energy
+greedy,-7.421,4.5678,2.676,7,0,True,0.0,0.627286,simulated_annealing,-11.83032
+simulated_annealing,-11.8303,2.1229,1.7387,3,0,True,0.3149,1.0,simulated_annealing,-11.83032
+genetic_algorithm,-11.8303,2.1229,1.7387,3,0,True,0.0956,1.0,simulated_annealing,-11.83032

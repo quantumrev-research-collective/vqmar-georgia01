@@ -1,0 +1,163 @@
+VQ-MAR: A Variational Quantum-Classical Hybrid Framework
+for Managed Aquifer Recharge Site Selection
+================================================================================
+
+Copyright 2026 The VQ-MAR Authors:
+Samar A. Aseeri (King Abdullah University of Science & Technology)
+Jeff Burgett (QuantumRev)
+Julián Melmer Stiefkens (Universidad de Buenos Aires)
+Tom Taylor (QuantumRev)
+Adam M. Milewski (University of Georgia)
+
+This product is licensed under the Apache License, Version 2.0
+(the "License"); you may not use this product except in compliance with
+the License. You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+The full license text is in the LICENSE file at the root of this repository.
+
+================================================================================
+DATA SOURCES
+================================================================================
+
+This pipeline retrieves and transforms data from five external sources. The
+output datasets in `georgia/raw/` and `georgia/processed/` retain the
+licensing terms of their upstream source as described below.
+
+---
+
+## OpenStreetMap (ODbL — attribution and share-alike required)
+
+OpenStreetMap(R) is open data, licensed under the Open Database License (ODbL)
+by the OpenStreetMap Foundation (OSMF). Data and tiles are
+(c) OpenStreetMap contributors.
+
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/
+
+OSM data and any data derived from it (including the road, waterway, and
+water-infrastructure distance scores produced by `scripts/osm_scripts/`)
+remain subject to the ODbL. Users redistributing, publishing, or building
+on OSM-derived outputs from this pipeline must comply with the ODbL's
+attribution and share-alike terms, including providing access to any
+public-use derivatives under the same license.
+
+The Overpass API endpoint queried by this pipeline is operated by the
+OpenStreetMap Foundation and the Overpass API maintainers; no payment or
+account is required, but users should respect the published rate limits
+and fair-use policies.
+
+---
+
+## USDA NRCS Soil Survey Geographic Database (SSURGO) — U.S. public domain
+
+Soil Survey Staff, Natural Resources Conservation Service, United States
+Department of Agriculture. Soil Survey Geographic (SSURGO) Database for
+Georgia. Available online at https://sdmdataaccess.nrcs.usda.gov/.
+Accessed 2026.
+
+SSURGO data are produced by the U.S. federal government and are not
+subject to copyright protection within the United States.
+
+---
+
+## USGS National Water Information System (NWIS) — U.S. public domain
+
+U.S. Geological Survey. National Water Information System: Web Interface.
+Available online at https://waterdata.usgs.gov/nwis. Accessed 2026.
+
+USGS data are produced by the U.S. federal government and are not subject
+to copyright protection within the United States. Retrieved through the
+USGS-published `dataretrieval` Python package (Hodson, T.O., et al.,
+U.S. Geological Survey).
+
+---
+
+## USGS National Land Cover Database (NLCD) — U.S. public domain
+
+Multi-Resolution Land Characteristics Consortium (MRLC). National Land
+Cover Database. U.S. Geological Survey. Available online at
+https://www.mrlc.gov/. Accessed 2026.
+
+NLCD data are produced by the U.S. federal government and are not subject
+to copyright protection within the United States.
+
+---
+
+## NOAA National Centers for Environmental Information (NCEI) — U.S. public domain
+
+National Oceanic and Atmospheric Administration, National Centers for
+Environmental Information. Daily Summaries (Global Historical Climatology
+Network — Daily). Retrieved via the NCEI Access Data Service v1.
+Available online at https://www.ncei.noaa.gov/access/services/data/v1.
+Accessed 2026.
+
+NOAA data are produced by the U.S. federal government and are not subject
+to copyright protection within the United States.
+
+================================================================================
+SOFTWARE DEPENDENCIES
+================================================================================
+
+This product depends on a number of open-source Python packages installed
+via `pip install -r requirements.txt`. Each dependency retains its own
+license; refer to the package metadata or the upstream project for the
+authoritative license text. The complete dependency list (with pinned
+versions) is in `requirements.txt`.
+
+Major frameworks acknowledged below.
+
+---
+
+## Qiskit and the IBM Quantum ecosystem (Apache License 2.0)
+
+Quantum circuit construction, simulation, and hardware execution rely on
+the Qiskit ecosystem, developed by IBM Quantum and the Qiskit Community:
+
+qiskit, qiskit-aer, qiskit-algorithms, qiskit-ibm-runtime,
+qiskit-optimization
+
+https://www.ibm.com/quantum/qiskit
+https://github.com/Qiskit
+
+Quantum hardware execution uses IBM Quantum services accessed via
+`ibm-cloud-sdk-core` and `ibm-platform-services`.
+
+Copyright IBM Corporation; licensed under the Apache License, Version 2.0.
+
+---
+
+## Geospatial — rasterio (BSD-3-Clause)
+
+The data acquisition pipeline uses `rasterio` for raster I/O when reading
+NLCD raster tiles. Refer to https://github.com/rasterio/rasterio for the
+authoritative license terms.
+
+---
+
+## Scientific Python (mixed permissive licenses)
+
+numpy, scipy, pandas, networkx, rustworkx, joblib
+
+These projects are individually licensed under permissive open-source
+licenses (BSD-3-Clause, MIT, or PSF). Refer to each project's repository
+for the authoritative license terms.
+
+---
+
+## USGS dataretrieval (CC0 1.0 / public domain dedication)
+
+Hodson, T.O., et al. dataretrieval (Python). U.S. Geological Survey.
+https://github.com/DOI-USGS/dataretrieval-python
+
+================================================================================
+ACKNOWLEDGMENTS
+================================================================================
+
+This work was sponsored by QuantumRev. Hardware time on the IBM Kingston
+superconducting QPU was provided by IBM Quantum.
+
+================================================================================
+END OF NOTICE
+================================================================================

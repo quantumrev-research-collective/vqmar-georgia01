@@ -1,0 +1,98 @@
+{
+  "n_sites": 50,
+  "table3": [
+    {
+      "variant": "baseline",
+      "cost_model": "real",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -11.72321483,
+      "best_benefit": 2.000488,
+      "best_cost": 1.546157,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_004",
+        "GA_036",
+        "GA_049"
+      ],
+      "n_selected": 3,
+      "approximation_ratio": 0.990947,
+      "runtime": 3.8056
+    },
+    {
+      "variant": "choice_b",
+      "cost_model": "real",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -10.67438718,
+      "best_benefit": 1.866179,
+      "best_cost": 1.277767,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_018",
+        "GA_026",
+        "GA_042"
+      ],
+      "n_selected": 3,
+      "approximation_ratio": 0.902291,
+      "runtime": 3.8749
+    },
+    {
+      "variant": "choice_a",
+      "cost_model": "real",
+      "p_depth": 1,
+      "simulator": "mps",
+      "best_energy": -11.29574684,
+      "best_benefit": 1.447956,
+      "best_cost": 1.362343,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_004",
+        "GA_007"
+      ],
+      "n_selected": 2,
+      "approximation_ratio": 0.954813,
+      "runtime": 3.8649
+    }
+  ],
+  "table4_per_variant": [
+    {
+      "variant": "baseline",
+      "site_diversity": 0.32,
+      "benefit_spread": 0.449576,
+      "cost_utilization": 0.4889,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "choice_b",
+      "site_diversity": 0.34,
+      "benefit_spread": 0.487361,
+      "cost_utilization": 0.459,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "choice_a",
+      "site_diversity": 0.26,
+      "benefit_spread": 0.563725,
+      "cost_utilization": 0.4752,
+      "feasibility_rate": 1.0
+    }
+  ],
+  "table4_pairwise_jaccard": {
+    "baseline_vs_choice_b": 0.32,
+    "baseline_vs_choice_a": 0.45,
+    "choice_b_vs_choice_a": 0.25
+  },
+  "config": {
+    "data_dir": "georgia/qiskit-ready/qubo_matrices/real",
+    "budget": 2.8196,
+    "n_sites": 50,
+    "auto_discover": true,
+    "only_variants": [
+      "baseline",
+      "choice_a",
+      "choice_b"
+    ],
+    "variant_files": null
+  }
+}

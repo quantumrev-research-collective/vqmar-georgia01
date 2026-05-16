@@ -1,0 +1,138 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "check": "greedy < random",
+      "status": "PASS",
+      "detail": "greedy=-6.6109, rand_mean=536.9846"
+    },
+    {
+      "check": "simulated_annealing < random",
+      "status": "PASS",
+      "detail": "simulated_annealing=-12.7482, rand_mean=536.9846"
+    },
+    {
+      "check": "genetic_algorithm < random",
+      "status": "PASS",
+      "detail": "genetic_algorithm=-12.7482, rand_mean=536.9846"
+    },
+    {
+      "check": "greedy: 3-10 sites",
+      "status": "PASS",
+      "detail": "selected=6"
+    },
+    {
+      "check": "greedy: cost <= B",
+      "status": "PASS",
+      "detail": "cost=3.0000, B=3.0"
+    },
+    {
+      "check": "greedy: no excluded",
+      "status": "PASS",
+      "detail": "excluded=0"
+    },
+    {
+      "check": "greedy: energy match",
+      "status": "PASS",
+      "detail": "stored=-6.610864, recomputed=-6.610864"
+    },
+    {
+      "check": "simulated_annealing: 3-10 sites",
+      "status": "PASS",
+      "detail": "selected=4"
+    },
+    {
+      "check": "simulated_annealing: cost <= B",
+      "status": "PASS",
+      "detail": "cost=2.0000, B=3.0"
+    },
+    {
+      "check": "simulated_annealing: no excluded",
+      "status": "PASS",
+      "detail": "excluded=0"
+    },
+    {
+      "check": "simulated_annealing: energy match",
+      "status": "PASS",
+      "detail": "stored=-12.748215, recomputed=-12.748215"
+    },
+    {
+      "check": "genetic_algorithm: 3-10 sites",
+      "status": "PASS",
+      "detail": "selected=4"
+    },
+    {
+      "check": "genetic_algorithm: cost <= B",
+      "status": "PASS",
+      "detail": "cost=2.0000, B=3.0"
+    },
+    {
+      "check": "genetic_algorithm: no excluded",
+      "status": "PASS",
+      "detail": "excluded=0"
+    },
+    {
+      "check": "genetic_algorithm: energy match",
+      "status": "PASS",
+      "detail": "stored=-12.748215, recomputed=-12.748215"
+    }
+  ],
+  "comparison": [
+    {
+      "method": "greedy",
+      "energy": -6.610863559322394,
+      "n_selected": 6,
+      "selected_sites": [
+        "GA_004",
+        "GA_007",
+        "GA_033",
+        "GA_034",
+        "GA_049",
+        "GA_050"
+      ],
+      "total_benefit": 4.097458375015474,
+      "total_cost": 3.0,
+      "excluded_used": 0,
+      "runtime": 5.6743621826171875e-05,
+      "ar_reference_source": "simulated_annealing",
+      "ar_reference_energy": -12.748215394189042
+    },
+    {
+      "method": "simulated_annealing",
+      "energy": -12.748215394189042,
+      "n_selected": 4,
+      "selected_sites": [
+        "GA_004",
+        "GA_007",
+        "GA_036",
+        "GA_049"
+      ],
+      "total_benefit": 2.771555635902755,
+      "total_cost": 2.0,
+      "excluded_used": 0,
+      "runtime": 0.3303811550140381,
+      "ar_reference_source": "simulated_annealing",
+      "ar_reference_energy": -12.748215394189042
+    },
+    {
+      "method": "genetic_algorithm",
+      "energy": -12.748215394189042,
+      "n_selected": 4,
+      "selected_sites": [
+        "GA_004",
+        "GA_007",
+        "GA_036",
+        "GA_049"
+      ],
+      "total_benefit": 2.771555635902755,
+      "total_cost": 2.0,
+      "excluded_used": 0,
+      "runtime": 0.10027098655700684,
+      "ar_reference_source": "simulated_annealing",
+      "ar_reference_energy": -12.748215394189042
+    }
+  ],
+  "random_baseline_mean": 536.984561622549,
+  "ar_reference_source": "simulated_annealing",
+  "ar_reference_energy": -12.748215394189042
+}

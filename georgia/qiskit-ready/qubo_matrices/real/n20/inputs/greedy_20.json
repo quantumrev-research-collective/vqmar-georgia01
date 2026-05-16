@@ -1,0 +1,24 @@
+{
+  "task": "B4",
+  "method": "greedy",
+  "n_sites": 20,
+  "runtime_seconds": 6.937980651855469e-05,
+  "result": {
+    "energy": -6.896451350875824,
+    "bitstring": "00010000001111010010",
+    "n_selected": 7,
+    "selected_sites": [
+      "GA_004",
+      "GA_011",
+      "GA_012",
+      "GA_013",
+      "GA_014",
+      "GA_016",
+      "GA_019"
+    ],
+    "total_benefit": 4.6485996553528635,
+    "total_cost": 2.6261979639492994,
+    "excluded_used": 0,
+    "budget_B": 2.6840435761596755
+  }
+}

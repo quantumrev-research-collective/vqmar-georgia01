@@ -1,0 +1,21 @@
+site_id,latitude,longitude,nlcd_class,nlcd_class_name,Li,ei_nlcd
+GA_001,31.65,-84.55,11,Open Water,0.0,1
+GA_002,31.65,-84.325,21,"Developed, Open Space",0.2,0
+GA_003,31.65,-84.1,22,"Developed, Low Intensity",0.0,0
+GA_004,31.65,-83.875,42,Evergreen Forest,0.6,0
+GA_005,31.65,-83.65,90,Woody Wetlands,0.1,0
+GA_006,31.916667,-84.55,42,Evergreen Forest,0.6,0
+GA_007,31.916667,-84.325,42,Evergreen Forest,0.6,0
+GA_008,31.916667,-84.1,90,Woody Wetlands,0.1,0
+GA_009,31.916667,-83.875,90,Woody Wetlands,0.1,0
+GA_010,31.916667,-83.65,82,Cultivated Crops,0.5,0
+GA_011,32.183333,-84.55,42,Evergreen Forest,0.6,0
+GA_012,32.183333,-84.325,82,Cultivated Crops,0.5,0
+GA_013,32.183333,-84.1,82,Cultivated Crops,0.5,0
+GA_014,32.183333,-83.875,82,Cultivated Crops,0.5,0
+GA_015,32.183333,-83.65,82,Cultivated Crops,0.5,0
+GA_016,32.45,-84.55,81,Pasture/Hay,0.7,0
+GA_017,32.45,-84.325,71,Grassland/Herbaceous,0.9,0
+GA_018,32.45,-84.1,90,Woody Wetlands,0.1,0
+GA_019,32.45,-83.875,82,Cultivated Crops,0.5,0
+GA_020,32.45,-83.65,82,Cultivated Crops,0.5,0

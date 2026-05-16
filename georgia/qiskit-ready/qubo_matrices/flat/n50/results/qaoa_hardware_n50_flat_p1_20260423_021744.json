@@ -1,0 +1,158 @@
+{
+  "task": "K5",
+  "method": "qaoa_hardware_fixed_params",
+  "n_sites": 50,
+  "cost_model": "flat",
+  "run_timestamp": "20260423_021744",
+  "parameters": {
+    "reps": 1,
+    "shots": 1024,
+    "backend": "ibm_kingston",
+    "mode": "fixed_params_no_session",
+    "fixed_params_source": "georgia/qiskit-ready/qubo_matrices/flat/top10_mps_50q_bd32_20260423_020855.json"
+  },
+  "runtime_seconds": 8.5697,
+  "result": {
+    "energy": 64.94989061903674,
+    "bitstring": "00010100100100000001000010000000101000000001100001",
+    "n_selected": 11,
+    "selected_sites": [
+      "GA_004",
+      "GA_006",
+      "GA_009",
+      "GA_012",
+      "GA_020",
+      "GA_025",
+      "GA_033",
+      "GA_035",
+      "GA_044",
+      "GA_045",
+      "GA_050"
+    ],
+    "total_benefit": 5.7685826264087,
+    "total_cost": 5.5,
+    "excluded_used": 0,
+    "budget_B": 3.0
+  },
+  "metrics": {
+    "approximation_ratio": -5.094822,
+    "n_qubits": 50,
+    "search_space": 1125899906842624,
+    "portfolio_cost": 5.5,
+    "budget_B": 3.0,
+    "budget_feasible": false
+  },
+  "extra_metrics": {
+    "optimal_beta": [
+      0.49114649
+    ],
+    "optimal_gamma": [
+      0.25857884
+    ],
+    "job_id": "d7kqn0i4lglc73fvqgc0"
+  },
+  "top_samples": [
+    {
+      "bitstring": "00010100100100000001000010000000101000000001100001",
+      "energy": 64.94989062,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000100000001100100011000110000101000010000000000",
+      "energy": 80.10573789,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000000001100000001100101000000001011000010010000",
+      "energy": 80.92735492,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00001101000000000000000100011100111000001000000010",
+      "energy": 95.77374111,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000000000110010000000001000100010110001101000101",
+      "energy": 104.51213722,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00001000000010000001100000001000101000010011001011",
+      "energy": 114.29547048,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000100101000001110000001100001001100010000010000",
+      "energy": 115.12828176,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00001101000000011000010000000110100000100100000101",
+      "energy": 118.44012557,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "01000010000011010011110000000001100100000000001000",
+      "energy": 118.92147772,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00001001000011000000000010101010110000001100001000",
+      "energy": 119.09408646,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000010000011010000000110001000101010000110010000",
+      "energy": 119.24447302,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "10100000100100000000010000000001000101011101000001",
+      "energy": 119.41785492,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "01001010000010101001010001100100000000000101000010",
+      "energy": 123.94762692,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "01000010100000100010000100110000001100001100000101",
+      "energy": 124.1747448,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "01010000000110001000010001000000010000100101110100",
+      "energy": 129.63116072,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "01000000001001001001000001000100000101100000110101",
+      "energy": 129.81563248,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00010010000000010101010000001101100000000111010000",
+      "energy": 133.67723349,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000111011100001000000000010000100001001000001011",
+      "energy": 134.28622612,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00000010001110000000000000010101100100010001100011",
+      "energy": 134.51159851,
+      "probability": 0.00097656
+    },
+    {
+      "bitstring": "00010011000100001001110000010010101000000001100000",
+      "energy": 134.52420253,
+      "probability": 0.00097656
+    }
+  ],
+  "ground_truth_energy": -12.748215394189042,
+  "hardware_note": "Fixed-params mode: \u03b2/\u03b3 loaded from simulator result, one hardware job submitted without Session (free plan compatible). Results include shot noise and gate errors. Per Sprint Plan K5: report as exploratory, not a central claim."
+}

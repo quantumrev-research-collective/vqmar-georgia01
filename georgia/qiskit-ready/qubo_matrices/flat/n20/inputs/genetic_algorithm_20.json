@@ -1,0 +1,21 @@
+{
+  "task": "B5b",
+  "method": "genetic_algorithm",
+  "n_sites": 20,
+  "runtime_seconds": 0.09715867042541504,
+  "result": {
+    "energy": -12.781459738867975,
+    "bitstring": "00010000001010010000",
+    "n_selected": 4,
+    "selected_sites": [
+      "GA_004",
+      "GA_011",
+      "GA_013",
+      "GA_016"
+    ],
+    "total_benefit": 2.825720013219777,
+    "total_cost": 2.0,
+    "excluded_used": 0,
+    "budget_B": 3.0
+  }
+}

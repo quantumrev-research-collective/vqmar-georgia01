@@ -1,0 +1,133 @@
+{
+  "n_sites": 20,
+  "table3": [
+    {
+      "variant": "baseline",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "native_diagonal",
+      "best_energy": -0.88418901,
+      "best_benefit": 3.906313,
+      "best_cost": 3.5,
+      "best_feasible": false,
+      "best_sites": [
+        "GA_002",
+        "GA_005",
+        "GA_007",
+        "GA_008",
+        "GA_010",
+        "GA_014",
+        "GA_017"
+      ],
+      "n_selected": 7,
+      "approximation_ratio": 1.0,
+      "runtime": "N/A"
+    },
+    {
+      "variant": "cvar",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "native_diagonal",
+      "best_energy": -12.78145981,
+      "best_benefit": 2.232315,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_005",
+        "GA_008",
+        "GA_010",
+        "GA_017"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": 1.0,
+      "runtime": "N/A"
+    },
+    {
+      "variant": "spatial",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "native_diagonal",
+      "best_energy": 2.58740667,
+      "best_benefit": 2.463833,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_005",
+        "GA_010",
+        "GA_014",
+        "GA_017"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": -0.208238,
+      "runtime": "N/A"
+    },
+    {
+      "variant": "hydraulic",
+      "cost_model": "flat",
+      "p_depth": 1,
+      "simulator": "native_diagonal",
+      "best_energy": -2.40812998,
+      "best_benefit": 2.418189,
+      "best_cost": 2.0,
+      "best_feasible": true,
+      "best_sites": [
+        "GA_005",
+        "GA_007",
+        "GA_014",
+        "GA_017"
+      ],
+      "n_selected": 4,
+      "approximation_ratio": -0.61118,
+      "runtime": "N/A"
+    }
+  ],
+  "table4_per_variant": [
+    {
+      "variant": "baseline",
+      "site_diversity": 0.45,
+      "benefit_spread": 0.194645,
+      "cost_utilization": 1.1833,
+      "feasibility_rate": 0.0
+    },
+    {
+      "variant": "cvar",
+      "site_diversity": 0.45,
+      "benefit_spread": 0.144825,
+      "cost_utilization": 0.6667,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "spatial",
+      "site_diversity": 0.45,
+      "benefit_spread": 0.137508,
+      "cost_utilization": 0.6667,
+      "feasibility_rate": 1.0
+    },
+    {
+      "variant": "hydraulic",
+      "site_diversity": 0.45,
+      "benefit_spread": 0.248271,
+      "cost_utilization": 0.65,
+      "feasibility_rate": 1.0
+    }
+  ],
+  "table4_pairwise_jaccard": {
+    "baseline_vs_cvar": 1.0,
+    "baseline_vs_spatial": 1.0,
+    "baseline_vs_hydraulic": 1.0,
+    "cvar_vs_spatial": 1.0,
+    "cvar_vs_hydraulic": 1.0,
+    "spatial_vs_hydraulic": 1.0
+  },
+  "config": {
+    "data_dir": "georgia/qiskit-ready/qubo_matrices/flat",
+    "budget": 3.0,
+    "n_sites": 20,
+    "variant_files": {
+      "baseline": "top10_baseline_p1.json",
+      "cvar": "top10_cvar_20260407_022742.json",
+      "spatial": "top10_spatial_diversity_20260407_022743.json",
+      "hydraulic": "top10_hydraulic_diversity_20260407_022744.json"
+    }
+  }
+}

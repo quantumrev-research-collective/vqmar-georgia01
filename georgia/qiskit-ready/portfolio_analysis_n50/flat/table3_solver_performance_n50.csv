@@ -1,0 +1,4 @@
+variant,cost_model,p_depth,simulator,best_energy,best_benefit,best_cost,best_feasible,n_selected,approximation_ratio,runtime
+baseline,flat,1,mps,-11.92974658,2.133123,2.0,True,4,0.935797,3.804
+choice_b,flat,1,mps,-12.077126,2.19921,2.0,True,4,0.947358,3.7784
+choice_a,flat,1,mps,-12.23742126,2.368252,2.0,True,4,0.959932,3.8121

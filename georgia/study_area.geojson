@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "VQ-MAR Georgia Study Area" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-84.6, 31.6],
+            [-83.6, 31.6],
+            [-83.6, 32.5],
+            [-84.6, 32.5],
+            [-84.6, 31.6]
+          ]
+        ]
+      }
+    }
+  ]
+}

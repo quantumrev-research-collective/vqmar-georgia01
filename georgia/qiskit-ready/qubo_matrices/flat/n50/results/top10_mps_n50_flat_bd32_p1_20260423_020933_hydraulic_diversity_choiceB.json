@@ -1,0 +1,188 @@
+{
+  "run_id": "mps_choice_b_n50_flat_bd32_fixed_params_20260423_020933",
+  "variant": "choice_b",
+  "cost_model": "flat",
+  "n_sites": 50,
+  "simulator": "mps",
+  "p_depth": 1,
+  "mode": "fixed_params",
+  "energy": -12.077126,
+  "approximation_ratio": 0.947358,
+  "beta": [
+    0.49114649
+  ],
+  "gamma": [
+    0.25857884
+  ],
+  "top10_bitstrings": [
+    {
+      "bitstring": "00000000001000100000000001000000100000000000000000",
+      "energy": -12.077126,
+      "sites": [
+        "GA_011",
+        "GA_015",
+        "GA_026",
+        "GA_033"
+      ],
+      "benefit": 2.19921,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01000000000000000000000011000000100000000000000000",
+      "energy": -11.65930886,
+      "sites": [
+        "GA_002",
+        "GA_025",
+        "GA_026",
+        "GA_033"
+      ],
+      "benefit": 2.077017,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00000000000000001000000000000000010100001000000100",
+      "energy": -10.3136867,
+      "sites": [
+        "GA_017",
+        "GA_034",
+        "GA_036",
+        "GA_041",
+        "GA_048"
+      ],
+      "benefit": 3.008789,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01000000000000000100000000000000010000000001000010",
+      "energy": -10.21298183,
+      "sites": [
+        "GA_002",
+        "GA_018",
+        "GA_034",
+        "GA_044",
+        "GA_049"
+      ],
+      "benefit": 2.85353,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01000000000000000000000001000000000000000000000111",
+      "energy": -10.20349247,
+      "sites": [
+        "GA_002",
+        "GA_026",
+        "GA_048",
+        "GA_049",
+        "GA_050"
+      ],
+      "benefit": 2.903967,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00000000000000100100000001000000000000000001000100",
+      "energy": -10.06139442,
+      "sites": [
+        "GA_015",
+        "GA_018",
+        "GA_026",
+        "GA_044",
+        "GA_048"
+      ],
+      "benefit": 2.723449,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00000000000000000100000010000000001100001000000000",
+      "energy": -9.94652109,
+      "sites": [
+        "GA_018",
+        "GA_025",
+        "GA_035",
+        "GA_036",
+        "GA_041"
+      ],
+      "benefit": 2.882166,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "01000000000000000001000011000000000000000001000000",
+      "energy": -9.72591704,
+      "sites": [
+        "GA_002",
+        "GA_020",
+        "GA_025",
+        "GA_026",
+        "GA_044"
+      ],
+      "benefit": 2.503115,
+      "cost": 2.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00010000000000000000000000000000000000100100000000",
+      "energy": -7.42168929,
+      "sites": [
+        "GA_004",
+        "GA_039",
+        "GA_042"
+      ],
+      "benefit": 1.923694,
+      "cost": 1.5,
+      "feasible": true,
+      "probability": 0.00012207
+    },
+    {
+      "bitstring": "00001010000000000000000000000000001100000000000000",
+      "energy": -7.31338862,
+      "sites": [
+        "GA_005",
+        "GA_007",
+        "GA_035",
+        "GA_036"
+      ],
+      "benefit": 2.548172,
+      "cost": 2.0,
+      "feasible": true,
+      "probability": 0.00012207
+    }
+  ],
+  "convergence_curve": [],
+  "seed": 42,
+  "runtime_seconds": 3.7784,
+  "run_timestamp": "20260423_020933",
+  "mps_bond_dim": 32,
+  "shots": 8192,
+  "fixed_params_source": "georgia/qiskit-ready/qubo_matrices/flat/top10_baseline_p1.json",
+  "result": {
+    "energy": -12.077126000482515,
+    "bitstring": "00000000001000100000000001000000100000000000000000",
+    "n_selected": 4,
+    "selected_sites": [
+      "GA_011",
+      "GA_015",
+      "GA_026",
+      "GA_033"
+    ],
+    "total_benefit": 2.1992098273606944,
+    "total_cost": 2.0,
+    "excluded_used": 0,
+    "budget_B": 3.0
+  },
+  "ground_truth_energy": -12.748215394189042,
+  "bond_dim_note": "bond_dim \u2264 32: entanglement truncation may reduce AR \u2014 acknowledge in paper Methodology."
+}
